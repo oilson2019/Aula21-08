@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+
+<style>
+    form{
+        background:rgb(153, 160, 134); 
+        padding: 5px;
+        width: 350px;
+        border: 1px solid blue;
+        
+    }
+
+    input{ margin-top: 2px;
+        color:rgba(243, 13, 13, 0.952);
+    }
+</style>
+<body>
+<form action="#">  <!-- formulario-->
+
+    <br>
+    <label for="nome"> Nome:</label><br>
+    <input id="nome" value="Oilson" type="text" name="nome" size="25px">
+    <br>
+    <label for="endereço"> End:</label><br>
+    <input autofocus placeholder="Digitar o seu enderço" id="nome" value="" type="text" name="nome" size="40px">
+    <br>
+    <label for="senha"> senha:</label><br>
+    <input required placeholder="Digitar sua senha" id="senha"  type="password" name="pass" size="25px">
+    <br>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="limpar">
+    
+    <input type="button"  value="clicar" onclick="alert('Ola mundo')">
+    <br><br>
+    <label>qual sua fruta preferida:</label>
+    <br>
+    <input type="checkbox" name="larana" value="laranja">
+    <label for="laranja">larnja</label>
+    <br>
+    <input type="checkbox" name="Pera" value="pera" checked>
+    <label for="pera">pera</label>
+    <br>
+    Qual é seu time?<br>
+    <input type="radio" name="time" value="Fla">flametno
+    <input type="radio" name="time" value="Flu">fluminense<br>  
+
+    cor:<br>
+    <input type="color" ><br>
+    arquivo:<br>
+    <input type="file">
+    <br>
+    numero:<br>
+    <input value="20" type="number" min="10" max="30">
+    <br>
+
+    numero: <input type="range" mim="1" max="10"> <br>
+
+    informe a data:
+    <input type="date" min="2019-01-01" max="2019-12-31">
+    <br>
+
+    observaçao:<br>
+    <textarea name="obs" rows="5" cols="40" placeholder="Campo obrigatorio">
+    </textarea>
+
+    selecione a cidade:<br>
+    <select name="cidade">
+        <option value="1">-escolher-</option>
+        <option value="jaragua" > jaragua do sul </option>
+        <option value="Blumenal" > Blumenal </option>
+        <option value="Joenvile" > Joenvile </option>
+    </select>
+
+    <br><br>
+    
+    selecione a cidade:<br>
+    <select name="cidade" size=4 multiple>
+        <option value="1">-escolher-</option>
+        <option value="jaragua" > jaragua do sul </option>
+        <option value="Blumenal" > Blumenal </option>
+        <option value="Joenvile" > Joenvile </option>
+    </select>
+    
+oniput="x.value="parselnt(a.value)+parselnt(b.value)    
+    
+</form>
+</body>
+</html>
